@@ -1,10 +1,6 @@
 <h1 align="center">Hi 👋, I'm Usman Abbasi</h1>
 <h3 align="center">A passionate Electrical Engineering Student with interest in Data Science and Machine Learning</h3>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/usmanabbasi2002/usmanabbasi2002/main/header.png" alt="Usman Abbasi Banner" />
-</p>
-
 ---
 
 ### 🌐 **Connect with me**
@@ -55,13 +51,6 @@
 ### 📊 **GitHub Stats**
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=usmanabbasi2002&show_icons=true&theme=radical" alt="GitHub Stats" />
-</p>
-
----
-
-### 🐍 **Cool Moving Snake**
-<p align="center">
-  <img src="https://i.gifer.com/origin/4d/4d9a99fa4eaa9a4a6b44f7be8f4f44cd_w200.gif" alt="Cool Snake GIF" width="400" height="100"/>
 </p>
 
 ---
