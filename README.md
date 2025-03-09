@@ -59,9 +59,9 @@
 
 ---
 
-### 🚀 **GitHub Contribution Snake**
+### 🐍 **Cool Moving Snake**
 <p align="center">
-  <img src="https://raw.githubusercontent.com/usmanabbasi2002/usmanabbasi2002/output/github-contribution-grid-snake.svg" alt="Contribution Snake" />
+  <img src="https://i.gifer.com/origin/4d/4d9a99fa4eaa9a4a6b44f7be8f4f44cd_w200.gif" alt="Cool Snake GIF" width="400" height="100"/>
 </p>
 
 ---
@@ -70,40 +70,3 @@
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=usmanabbasi2002&theme=radical" alt="GitHub Streak" />
 </p>
-
----
-
-### **How to Enable the Contribution Snake?**
-1. Go to **your GitHub repository** and create a new file:  
-   📂 `.github/workflows/snake.yml`
-
-2. Paste the following **GitHub Actions workflow** code:
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Generate snake animation
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: usmanabbasi2002
-          outputs: |
-            github-contribution-grid-snake.svg
-      - name: Commit and push
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add .
-          git commit -m "Updated snake animation"
-          git push
-"https://github-readme-stats.vercel.app/api/top-langs?username=usmanabbasi2002&show_icons=true&locale=en&layout=compact" alt="usmanabbasi2002" /></p>
