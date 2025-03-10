@@ -50,9 +50,9 @@
 
 ---
 
-### 📊 **Programming Languages**
+### 📊 **🐍 My Contributions 🐍**
 <p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=UsmanAbbasi2002&theme=radical" />
+  <img src="https://raw.githubusercontent.com/UsmanAbbasi2002/UsmanAbbasi2002/main/dist/github-contribution-grid-snake.svg" />
 </p>
 
 ---
