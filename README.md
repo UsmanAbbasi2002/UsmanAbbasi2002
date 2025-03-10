@@ -50,7 +50,7 @@
 
 ### 📊 **Programming Languages**
 <p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=UsmanAbbasi2002&theme=transparent" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=UsmanAbbasi2002&theme=solarized" />
 </p>
 
 
