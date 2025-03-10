@@ -48,8 +48,9 @@
 
 ---
 
-### 📊 **Top Languages**
+### 📊 **Programming Languages**
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=usmanabbasi2002&layout=compact&langs_count=8&theme=radical" alt="Top Languages"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=usmanabbasi2002&layout=compact&langs_count=8&theme=radical" alt="Top Languages" />
 </p>
 
+---
