@@ -45,6 +45,11 @@
     <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="Django" width="40" height="40"/>
   </a>
 </p>
+### 📊 **Programming Languages**
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=usmanabbasi2002&theme=radical" alt="Languages Used" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=usmanabbasi2002&theme=radical" alt="Most Used Language" />
+</p>
 
 ---
 
