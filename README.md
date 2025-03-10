@@ -50,8 +50,8 @@
 
 ### 📊 **Programming Languages**
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=usmanabbasi2002&theme=tokyonight" alt="Languages Used" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=usmanabbasi2002&theme=tokyonight" alt="Most Used Language" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=usmanabbasi2002&langs_count=6&theme=gruvbox&layout=compact" />
 </p>
+
 
 ---
