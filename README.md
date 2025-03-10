@@ -50,7 +50,7 @@
 
 ### 📊 **Programming Languages**
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=usmanabbasi2002&langs_count=6&theme=gruvbox&layout=compact" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=UsmanAbbasi2002&theme=transparent" />
 </p>
 
 
