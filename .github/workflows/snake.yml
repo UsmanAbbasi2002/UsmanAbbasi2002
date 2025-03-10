@@ -1,29 +1,37 @@
-name: Generate Contribution Snake
+name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Runs every day at midnight UTC
+    - cron: "0 */12 * * *"  # Runs every 12 hours (UTC)
   workflow_dispatch:  # Allows manual trigger
+
+permissions:
+  contents: write  # Ensures GitHub Actions can push changes
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout the repository
-        uses: actions/checkout@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-      - name: Generate the snake
+      - name: Generate Snake Contribution Grid
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist/github-contribution-grid-snake.svg
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
 
-      - name: Commit and push
+      - name: Check for Changes
+        run: |
+          git diff --quiet dist/ || echo "Changes detected" > changes_detected
+
+      - name: Commit and Push Snake Grid
+        if: success() && hashFiles('changes_detected') != ''
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add dist/github-contribution-grid-snake.svg
-          git commit -m "Update contribution snake"
-          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git add dist/
+          git commit -m "Updated Snake Contribution Grid" || exit 0
+          git push
