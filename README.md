@@ -50,8 +50,13 @@
 
 ### 📊 **Programming Languages**
 <p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=UsmanAbbasi2002&theme=solarized" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=UsmanAbbasi2002&theme=radical" />
 </p>
 
+---
 
+### 📊 **Profile details**
+<p align="center">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=UsmanAbbasi2002&theme=radical" />
+</p>
 ---
