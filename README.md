@@ -48,14 +48,8 @@
 
 ---
 
-### 📊 **GitHub Stats**
+### 📊 **Top Languages**
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=usmanabbasi2002&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=usmanabbasi2002&layout=compact&langs_count=8&theme=radical" alt="Top Languages"/>
 </p>
 
----
-
-### 🔥 **GitHub Streak**
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=usmanabbasi2002&theme=radical" alt="GitHub Streak" />
-</p>
