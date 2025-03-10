@@ -59,6 +59,6 @@
 
 ### 📊 **Profile details**
 <p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=UsmanAbbasi2002&theme=nord_bright" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=UsmanAbbasi2002&theme=github" />
 </p>
 ---
