@@ -52,7 +52,7 @@
 
 ### 📊 **🐍 My Contributions 🐍**
 <p align="center">
-  <img src="https://raw.githubusercontent.com/UsmanAbbasi2002/UsmanAbbasi2002/main/dist/github-contribution-grid-snake.svg" />
+  <img src="https://github.com/UsmanAbbasi2002/UsmanAbbasi2002/dist/github-snake.svg" />
 </p>
 
 ---
