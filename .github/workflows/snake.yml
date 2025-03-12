@@ -15,6 +15,9 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
+      - name: Create Output Directory
+        run: mkdir -p dist
+
       - name: Generate Snake Contribution Grid
         uses: Platane/snk@v3
         with:
@@ -23,15 +26,20 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      - name: Check for Changes
+      - name: Check if Snake Was Generated
         run: |
-          git diff --quiet dist/ || echo "Changes detected" > changes_detected
+          ls -l dist/
+          git status
 
       - name: Commit and Push Snake Grid
-        if: success() && hashFiles('changes_detected') != ''
+        if: success()
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add dist/
-          git commit -m "Updated Snake Contribution Grid" || exit 0
-          git push
+          if git diff --quiet dist/; then
+            echo "No changes to commit."
+          else
+            git config --global user.name "github-actions"
+            git config --global user.email "github-actions@github.com"
+            git add dist/
+            git commit -m "Updated Snake Contribution Grid"
+            git push
+          fi
