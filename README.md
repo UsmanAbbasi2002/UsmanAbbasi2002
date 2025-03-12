@@ -52,7 +52,7 @@
 
 ### 📊 **🐍 My Contributions 🐍**
 <p align="center">
-  <img src="https://github.com/UsmanAbbasi2002/UsmanAbbasi2002/dist/github-snake.svg" />
+  <img src="https://github.com/UsmanAbbasi2002/UsmanAbbasi2002/dist/github-snake.svg](https://github.com/UsmanAbbasi2002/UsmanAbbasi2002/blob/main/dist/github-snake.svg" />
 </p>
 
 ---
